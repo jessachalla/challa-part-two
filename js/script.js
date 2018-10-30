@@ -28,7 +28,9 @@ function msg(){
   }
 
 
+    result = ("Because you are going to a " +eventType+ " event and it is " +tempFahr+ " degrees out, then you should wear " +result+ ".");
 
-    alert("Because you are going to a " +eventType+ " event and it is " +tempFahr+ " degrees out, then you should wear " +result+ ".");
+    console.log(result);
 
+    alert(result);
 }
